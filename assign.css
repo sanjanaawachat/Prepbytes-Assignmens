@@ -32,3 +32,8 @@ ul{
 .yut{
     background-color: yellow;
 }
+a{
+    text-decoration: none;
+    font-size: italic;
+    color: tomato;
+}
