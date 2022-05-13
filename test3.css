@@ -1,0 +1,179 @@
+.bg{
+width: 990px;
+height:  2000px;
+background-image: url(./darkimage.jpeg);
+
+    
+}
+
+.box{
+    
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    border: 6px solid red;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 350px;
+    box-shadow: 5px 5px 1px rgb(92, 6, 105);
+    
+}
+.box p{
+    color: darkred;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(3, 3, 26);
+    font-size: large;
+}
+.border{
+width: 980px;
+height: 500px;
+border: 8px solid green;
+position: relative;
+top: 150px;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+}
+.box1{
+    background-color: white;
+    width: 180px;
+    height: 200px;
+    border: 6px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px rgb(92, 6, 105);
+}
+.box1 p{
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(115, 13, 13);
+    font-size: large;
+}
+.box4{
+    background-color: white;
+    width: 180px;
+    height: 200px;
+    border: 6px solid red; 
+    border-radius: 10px;
+    position: absolute; 
+    top: 260px; 
+    right: 2px;
+    box-shadow: 5px 5px 1px rgb(92, 6, 105);
+}
+.box3{
+   
+    background-color: white;
+    width: 180px;
+    height: 200px;
+    border: 6px solid red; 
+    border-radius: 10px;
+    position: absolute;
+    top: 260px;
+    box-shadow: 5px 5px 1px rgb(92, 6, 105);
+    
+}
+.box3 p{
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(115, 13, 13);
+    font-size: large;
+}
+.box2{
+    background-color: white;
+    width: 180px;
+    height: 200px;
+    border: 6px solid red;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 1px rgb(92, 6, 105);
+}
+.oval{
+    width: 400px;
+    height: 70px;
+    background-color: rgb(224, 224, 28);
+    border: 6px solid red;
+    border-radius: 10px;
+    position: fixed;
+   
+}
+.border1{
+    width: 650px;
+    height: 500px;
+    border: 5px solid purple;
+   position: relative;
+   top: 180px;
+   left: 200px;
+   background-color:  rgb(97, 30, 168);
+}
+.box5{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+.box6{
+    width: 330px;
+    height: 200px;
+    background-color: palegoldenrod;
+}
+.box7{
+    width: 310px;
+    height: 200px;
+    background-color: palegoldenrod;
+    position: relative;
+    left: 340px;
+    bottom: 200px;
+}
+.box6 p{
+  
+   font-weight: lighter;
+   font-size: small;
+   font-weight: bold;
+   text-align: center;
+
+}
+.box7 p{
+    font-weight: lighter;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+.box8{
+    width: 650px;
+    height: 170px;
+    background-color: palegoldenrod;
+    position: absolute;
+    bottom: 10px;
+}
+.box8 p{
+    font-weight: lighter;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+.box1 p{
+    text-align: center;
+}
+.box3 p{
+    text-align: center;
+  
+}
+.box4 p{
+    text-align: center;
+}
+
+.box4{
+    text-shadow: 1px 1px 1px red;
+}
+.input{
+    text-shadow: 1px 1px 1px red;
+}
+.submit{
+    width: 70px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+}
+.submit b{
+    font-size: small;
+} 
