@@ -1,0 +1,254 @@
+.grad1{
+    width: 1000px;
+    height: 18px;
+    border: 1px solid;
+   background-image: linear-gradient(
+       to bottom right,
+       red ,
+       green ,
+       yellow ,
+       orange
+   );
+}
+.grad1 b{
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+    position: absolute;
+    left: 450px;
+}
+.oval{
+    width: 600px;
+    height: 50px;
+    background-color: aquamarine;
+    border: 4px solid red;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+.ovl{
+    text-align: center;
+    font-size: x-small;
+    font-weight: bold;
+}
+.oval1{
+    width: 1000px;
+    height: 150px;
+    background-color: palevioletred;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    display: flex;
+}
+.ovala{
+   width: 500px;
+   height: 60px;
+   background-color: aqua;
+   border: 2px solid green;
+   border-radius: 10px;
+}
+.ovalb{
+    width: 500px;
+    height: 60px;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 10px;
+ }
+ .ovalc{
+    width: 500px;
+    height: 60px;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 10px;
+ }
+ .ovald{
+    width: 400px;
+    height: 60px;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 280px;
+ }
+ .dsa{
+    width: 1000px;
+    height: 18px;
+    border: 1px solid;
+   background-image: linear-gradient(
+       to bottom right,
+       red ,
+       green ,
+       yellow ,
+       rgb(255, 0, 115)
+   );
+   position: absolute;
+   top: 270px;
+}
+.dsa b{
+    text-align: center;
+    text-decoration: underline;
+     position: absolute;
+     bottom: 2px;
+     left: 350px;
+}
+.rect{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background-image: linear-gradient(
+        to bottom right,
+        aqua ,
+        blue ,
+        skyblue ,
+        green
+    
+    );
+    position: relative;
+    top: 220px;
+   display: flex;
+   flex-flow: row;
+   justify-content: space-evenly;
+ 
+}
+.rect1{
+    width: 180px;
+    height: 80px;
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.rect2{
+    width: 180px;
+    height: 80px;
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.rect3{
+    width: 180px;
+    height: 80px;
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.rect4{
+    width: 180px;
+    height: 80px;
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.rect1 p{
+    color: darkred;
+    text-align: center;
+    text-decoration: underline;
+}
+.rect2 p{
+    color: darkred;
+    text-align: center;
+    text-decoration: underline;
+}
+.rect3 p{
+    color: darkred;
+    text-align: center;
+    text-decoration: underline;
+}
+.rect4 p{
+    color: darkred;
+    text-align: center;
+    text-decoration: underline;
+}
+.box{
+    width: 1000px;
+    height: 250px;
+    border: 1px solid;
+    position: absolute;
+    top: 530px;
+}
+.box1{
+    width: 1000px;
+    height: 30px;
+   background-color: red;
+}
+.box1 b{
+    color: white;
+    text-align: center;
+}
+
+.shape1{
+  width: 280px;
+  height: 70px;
+  background-color: aquamarine;
+
+  
+}
+.shape2{
+    width: 280px;
+    height: 70px;
+    background-color: lightsalmon;
+   position: absolute;
+   top: 47px;
+   right: 430px;
+}
+.shape3{
+    width: 280px;
+    height: 70px;
+    background-color: lightseagreen;
+    position: absolute;
+    top: 47px;
+    right: 140px;
+}
+.shape1 p{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.shape2 p{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.shape3 p{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.para{
+    width: 860px;
+    height: 80px;
+    background-color: orange;
+}
+.para p{
+    color: white;
+    font-weight: bold;
+}
+.middle{
+    width: 130px;
+    height: 186px;
+    background-color: black;
+    position: absolute;
+    top: 47px;
+    right: 5px;
+}
+.middle li{
+    color: white;
+    text-decoration: underline;
+}
+.last{
+    width: 1000px;
+    height: 18px;
+    background-color: mediumvioletred;
+    position: absolute;
+    top: 235px;
+}
+.last b{
+    text-align: center;
+}
