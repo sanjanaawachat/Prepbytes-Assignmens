@@ -1,0 +1,40 @@
+
+h1{
+    color: red;
+}
+b{
+    color: tomato;
+  
+}
+
+ol{
+    color: #8e2525;
+}
+
+li{
+    color: red;
+    font-weight: 100;
+}
+
+.sja{
+    text-decoration: line-through;
+}
+.sgl{
+    background-color: yellow;
+}
+ul{
+    color: #8e2525;
+    letter-spacing: 4px;
+}
+.kgl{
+    background-color: yellow;
+}
+
+.yut{
+    background-color: yellow;
+}
+a{
+    text-decoration: none;
+    font-size: italic;
+    color: tomato;
+}
