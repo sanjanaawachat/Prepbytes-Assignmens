@@ -1,0 +1,143 @@
+.bg1{
+   width: 99%;
+   height: 100vh;
+   background-image: url(./Saharaimg.jpeg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.top{
+   height: 100px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+  
+}
+.ltop{
+   background-image: url(./camelicon.jpeg);
+   background-repeat: no-repeat;
+   background-size: 50px 50px;
+   width: 90px;
+   background-position: relative;
+   position: relative;
+   left: 10%;
+   margin-top: 30px;
+}
+.rtop{
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   width: 45%;
+   cursor: pointer;
+}
+.material-icons{
+   color: white;
+   position: relative;
+   top: 15px;
+}
+.heading{
+   font-size: 50px;
+}
+.bottom{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+}
+.lbottom{
+   color: white;
+}
+.rbottom{
+   right: 40px;
+   position: relative;
+   width: 40%;
+   display: flex;
+   align-content: space-between;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+}
+.lbottom{
+   left: 40px;
+   position: relative;
+   width: 40%;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+button{
+   background-color: white;
+   border: 0px;
+   border-radius: 50px;
+   width: 150px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+.b1{
+   background-image: url(./b3img.jpeg);
+   height: 230px;
+   width: 230px;
+   color: white;
+   border-radius: 10px;
+   position: relative;
+   text-align: center;
+   background-position: absolute;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+.b1:hover{
+   transform: translateY(-12px);
+}
+.b2{
+   background-image: url(./b4img.jpeg);
+   height: 230px;
+   width: 230px;
+   color: white;
+   border-radius: 10px;
+   position: relative;
+   text-align: center;
+   background-position: absolute;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+.b2:hover{
+   transform: translateY(-12px);
+}
+.b3{
+   background-image: url(./b2img.jpeg);
+   height: 230px;
+   width: 230px;
+   color: white;
+   border-radius: 10px;
+   position: relative;
+   text-align: center;
+   background-position: absolute;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+.b3:hover{
+   transform: translateY(-12px);
+}
+.b4{
+   background-image: url(./b1img.jpeg);
+   height: 230px;
+   width: 230px;
+   color: white;
+   border-radius: 10px;
+   position: relative;
+   text-align: center;
+   background-position: absolute;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+.b4:hover{
+   transform: translateY(-12px);
+}
