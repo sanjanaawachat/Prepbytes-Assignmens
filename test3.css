@@ -8,8 +8,8 @@ background-image: url(./darkimage.jpeg);
 
 .box{
     
-    width: 350px;
-    height: 80px;
+    width: 400px;
+    height: 90px;
     background-color: white;
     border: 6px solid red;
     border-radius: 10px;
@@ -23,7 +23,7 @@ background-image: url(./darkimage.jpeg);
     color: darkred;
     text-align: center;
     text-shadow: 1px 1px 1px rgb(3, 3, 26);
-    font-size: large;
+    font-size: X-large;
 }
 .border{
 width: 980px;
@@ -47,7 +47,7 @@ justify-content: space-between;
     color: black;
     text-align: center;
     text-shadow: 1px 1px 1px rgb(115, 13, 13);
-    font-size: large;
+    font-size: X-large;
 }
 .box4{
     background-color: white;
@@ -93,6 +93,8 @@ justify-content: space-between;
     border: 6px solid red;
     border-radius: 10px;
     position: fixed;
+    bottom: 10px;
+    left: 150px;
    
 }
 .border1{
@@ -158,6 +160,7 @@ justify-content: space-between;
 }
 .box4 p{
     text-align: center;
+    font-size: large;
 }
 
 .box4{
