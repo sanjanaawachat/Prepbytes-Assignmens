@@ -1,0 +1,62 @@
+.sra{
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+   
+}
+
+.heading{
+   
+    font-size: xx-large;
+    text-align: center;
+}
+.border{
+    text-align: center;
+    position: relative;
+    left: 400px;
+}
+
+.page1{
+    width: 100px;
+    height: 150px;
+    padding: 30px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+  
+}
+.p1{
+    text-decoration: line-through;
+}
+.checkbox{
+    color: black;
+}
+.material-icons{
+   color: red;
+   background-color: white;
+   text-align: center;
+   
+}
+.hr1{
+ position: relative;
+  top: 20px;
+  left: 230px;
+  border-top: 1px solid black;
+  width: 18%;
+}
+.hr2{
+    position: relative;
+  bottom: 15px;
+  left: 600px;
+  border-top: 1px solid black;
+  width: 18%;
+}
+.arrow1{
+    position: relative;
+    left: 60px;
+}
+.arrow2{
+    position: relative;
+    top: 30px;
+    left: 450px;
+}

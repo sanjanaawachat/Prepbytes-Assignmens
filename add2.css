@@ -1,0 +1,89 @@
+.s2{
+    width: 1000px;
+    height: 500px;
+    background-color: white; 
+}
+.item2{
+    width: 300px;
+   height: 150px;
+   background-color: white;
+   border: 1px solid red;
+   border-radius: 10px;
+   box-shadow: 8px 8px lightgrey;
+   text-align: center;
+   position: absolute;
+   left: 300px;
+   bottom: 150px;
+
+}
+.item2 h4{
+    color: red;
+}
+.abc{
+    width: 50px;
+    height: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: red;
+    text-align: center;
+    position: absolute;
+    left: 120px;
+}
+.heading{
+   
+    font-size: xx-large;
+    text-align: center;
+}
+.border{
+    text-align: center;
+    position: relative;
+    left: 400px;
+}
+
+.page1{
+    width: 100px;
+    height: 150px;
+    padding: 30px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+  
+}
+.p1{
+    text-decoration: line-through;
+}
+.checkbox{
+    color: black;
+}
+.material-icons{
+   color: red;
+   background-color: white;
+   text-align: center;
+   
+}
+.hr1{
+ position: relative;
+  top: 20px;
+  left: 230px;
+  border-top: 1px solid black;
+  width: 18%;
+}
+.hr2{
+    position: relative;
+  bottom: 15px;
+  left: 600px;
+  border-top: 1px solid black;
+  width: 18%;
+}
+.arrow1{
+    position: relative;
+    left: 60px;
+}
+.arrow2{
+    position: relative;
+    top: 30px;
+    left: 450px;
+}
+.s2{
+    filter: blur(6px);
+}
