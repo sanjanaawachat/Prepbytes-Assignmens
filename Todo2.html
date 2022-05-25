@@ -4,30 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./a3.css">
+    <title>CSS Project2</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./a1.css">
 </head>
 <body>
-    <div class="notshow">
+    <div class="main">
         <div class="upper-container">
           <div class="upper-container1">
             <span id="tasks">Tasks</span>
             <span id="lists">Lists</span>
           </div>
-  
           <div class="upper-container2">
             <div id="circle">
-              <span class="material-icons">
-                add_circle
-             </span>
+              <a href="./page2.html">
+                
+                <span class="material-icons">
+                  add_circle
+               </span>
+              
+              </a>
             </div>
             <div id="addlist">Add List</div>
           </div>
         </div>
-        <div class="cardcontianer">
+        <div class="middle_container">
           <div class="card">
             <div class="div1">
-              <p>Trip to Paris</p>
+              <a href="./page1.html">
+                <p>Trip to Paris 1</p>
+              </a>
+            </div>
+            <div class="div2">
+              <p>Completed Task</p>
+            </div>
+            <div class="div3">
+              <form>
+                <input type="checkbox" id="check" name="todo" />
+                <label for="todo">Pending Task</label>
+              </form>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="div1">
+              <p>My Todo List 2</p>
             </div>
             <div class="div2">
               <p>Completed Task</p>
@@ -41,21 +63,7 @@
           </div>
           <div class="card">
             <div class="div1">
-              <p>My Todo List</p>
-            </div>
-            <div class="div2">
-              <p>Completed Task</p>
-            </div>
-            <div class="div3">
-              <form>
-                <input type="checkbox" id="check" name="todoo" />
-                <label for="todo">Pending Task</label>
-              </form>
-            </div>
-          </div>
-          <div class="card">
-            <div class="div1">
-              <p>My Todo List</p>
+              <p>My Todo List 3</p>
             </div>
             <div class="div2">
               <p>Completed Task</p>
@@ -79,12 +87,5 @@
           </div>
         </div>
       </div>
-      <div class="pop-up">
-        <p id="add-new">Add New List</p>
-        <input type="text" class="pop-upbar">
-        <button class="pop-upbutton" id="demo" type="button">
-              ADD
-        </button>
-      </div>   
 </body>
 </html>
