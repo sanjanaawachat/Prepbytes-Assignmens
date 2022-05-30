@@ -1,0 +1,167 @@
+body {
+    background-color: yellow;
+  }
+  .heading {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+  .container {
+    width: 10%;
+    margin: auto;
+  }
+  .num {
+    width: 30%;
+  }
+  .box1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 20px;
+  }
+  .box1:hover {
+    animation-name: sanjana;
+    animation-duration: 5s;
+    animation-timing-function: alternate;
+    animation-duration: infinite;
+  }
+  @keyframes sanjana {
+    from {
+      width: 100px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 20px;
+  }
+  .box2:hover {
+    animation-name: abc;
+    animation-duration: 5s;
+    animation-timing-function: alternate;
+    animation-duration: infinite;
+  }
+  @keyframes abc {
+    from {
+      width: 100px;
+      height: 100px;
+    }
+    to {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .box3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 20px;
+  }
+  .box3:hover {
+    animation-name: xyz;
+    animation-duration: 5s;
+    animation-timing-function: alternate;
+    animation-duration: infinite;
+  }
+  @keyframes xyz {
+    from {
+      width: 100px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  .box4 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 20px;
+  }
+  .box4:hover {
+    animation-name: bcd;
+    animation-duration: 5s;
+    animation-timing-function: alternate;
+    animation-duration: infinite;
+  }
+  @keyframes bcd {
+    from {
+      width: 100px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  .box5 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 20px;
+  }
+  .box5:hover {
+    animation-name: san;
+    animation-duration: 5s;
+    animation-timing-function: alternate;
+    animation-duration: infinite;
+  }
+  @keyframes san {
+    from {
+      width: 100px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  .box6 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 20px;
+  }
+  .box6:hover {
+    animation-name: sja;
+    animation-duration: 5s;
+    animation-timing-function: alternate;
+    animation-duration: infinite;
+  }
+  @keyframes sja {
+    from {
+      width: 100px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  .box7 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 20px;
+  }
+  .box7:hover {
+    animation-name: fgh;
+    animation-duration: 5s;
+    animation-timing-function: alternate;
+    animation-duration: infinite;
+  }
+  @keyframes fgh {
+    from {
+      width: 100px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  .back{
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+  }
+  .next{
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+  }
