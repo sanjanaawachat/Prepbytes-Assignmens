@@ -1,0 +1,171 @@
+body{
+    background-color: yellow;
+}
+.heading{
+    color:black;
+    text-align: center;
+    font-weight: bold;
+
+}
+.box1{
+        width: 50%;
+        margin-left: 25%;
+    
+}
+.container{
+    width: 100%;
+}
+.blue{
+    background-color: blue;
+    width:100px;
+    height:100px;
+    border: 1px solid blue;
+    display:inline-block;
+    margin:8% 0% 0% 8%;
+    
+}
+.box2{
+    width:50%;
+    margin-left:25%;
+}
+.seagreen{
+    background-color:seagreen ;
+    width:100px;
+    height:100px;
+    border:1px solid seagreen;
+    display:inline-block;
+    margin:8% 0% 0% 8%;
+}
+.box3{
+    width:50%;
+    margin-left:25%;
+}
+.orange{
+    background-color:orange ;
+    width:100px;
+    height:100px;
+    border:1px solid orange;
+    display:inline-block;
+    margin:8% 0% 0% 8%;
+}
+.box4{
+    width:50%;
+    margin-left:25%;
+}
+.voilet{
+    background-color: violet;
+    width:100px;
+    height:100px;
+    border:1px solid violet;
+    display:inline-block;
+    margin:8% 0% 0% 8%;
+}
+.page1{
+    text-decoration: underline;
+    text-align: center;
+    padding:50px;
+    font-size: 30px;
+}
+a
+{
+    color:darkgreen;
+}
+.a{
+    animation-name: sanjana;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+
+}
+@keyframes sanjana{
+50%{
+    transform:skewX(30deg);
+
+}
+30%{
+     transform:skewX(-30deg);
+    }
+}
+.b{
+    animation-name: neel;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+
+    }
+@keyframes neel {
+50%{
+    transform: skewY(30deg);
+} 
+30%{
+    transform:skewY(-30deg);
+}
+}
+.c{
+    animation-name: sakshi;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+}
+@keyframes sakshi {
+0%{
+    transform:rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+}    
+}
+.d{
+    animation-name: snehal;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    height:60px;
+    
+    
+
+}
+@keyframes snehal {
+30%{
+    transform: scaleY(2);
+}
+50%{
+    transform: scaleY(2);
+}   
+}
+.e{
+        animation-name: ashu;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-duration: 5s;
+        width:60px;
+        border: 2px solid blueviolet;
+        background-color: blueviolet;
+        
+    }
+@keyframes ashu {
+30%{
+    transform: scaleX(2);
+} 
+50%{
+    transform: scaleX(2);
+}  
+}
+.f{
+
+        animation-name: anshu;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        animation-duration: 2s;
+        border:2px solid pink;
+        background-color: pink;
+        
+}
+@keyframes anshu {
+to{
+    transfrom:rotate(0deg)
+}
+ from{
+     transform: rotate(90deg);
+ }   
+}
